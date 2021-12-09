@@ -1,0 +1,80 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(255, 233, 255);
+}
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#container{
+    width: 700px;
+    margin: 0 auto;
+    background: white;
+}
+
+#marca{
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    background: url(marca.png) rgb(161, 161, 161);
+}
+
+#conteudo{
+    width: 520px;
+    float: right;
+}
+
+#navegacao{
+    width: 180px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    float: left;
+    
+}
+
+#rodape{
+    clear: both;
+    padding: 5px;
+    background: #da96c5;
+    text-align: center;
+}
+
+#navegacao ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+#navegacao ul a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-indent: 15px;
+    line-height: 40px;
+    background: #da96c5;
+}
+
+#navegacao ul a:hover{
+    background-position: right bottom;
+    color: white;
+    background-color: #b63d92;
+}
+
+#outros{
+    font-size: 10px;
+    width: 180px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    float: left;
+    text-align: justify;
+    background: rgb(250, 217, 250);
+}
+
+h3{
+    text-align: center;
+}
